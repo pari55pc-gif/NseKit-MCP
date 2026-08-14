@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-nsekit-mcp = "nsekit_mcp.server:main"
+nsekit-mcp = "nsekit_mcp.server_async:main"
 
 [build-system]
 requires = ["hatchling"]
